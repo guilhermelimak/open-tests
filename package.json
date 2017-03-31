@@ -1,7 +1,7 @@
 {
   "name": "open-tests",
   "main": "./lib/open-tests",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Open tests of current file in atom",
   "keywords": [
     "tests"
