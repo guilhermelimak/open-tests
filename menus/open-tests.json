@@ -3,7 +3,7 @@
     "atom-text-editor": [
       {
         "label": "Toggle open-tests",
-        "command": "open-tests:toggle"
+        "command": "open-tests:open"
       }
     ]
   },
@@ -15,8 +15,8 @@
           "label": "open-tests",
           "submenu": [
             {
-              "label": "Toggle",
-              "command": "open-tests:toggle"
+              "label": "Open",
+              "command": "open-tests:open"
             }
           ]
         }

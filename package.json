@@ -2,13 +2,14 @@
   "name": "open-tests",
   "main": "./lib/open-tests",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "description": "Open tests of current file in atom",
   "keywords": [
+    "tests"
   ],
   "activationCommands": {
-    "atom-workspace": "open-tests:toggle"
+    "atom-workspace": "open-tests:open"
   },
-  "repository": "https://github.com/atom/open-tests",
+  "repository": "https://github.com/guilhermelimak/open-tests",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
