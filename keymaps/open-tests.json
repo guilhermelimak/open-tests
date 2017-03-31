@@ -1,5 +1,5 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "open-tests:toggle"
+    "ctrl-alt-o": "open-tests:open"
   }
 }
