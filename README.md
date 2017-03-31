@@ -1,5 +1,11 @@
-# open-tests package
+# open-tests
 
-A short description of your package.
+A simple package to open the tests related to the current file.
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+Example:
+If the current open file is `~/feature.js`, the open command will open the `~/feature.spec.js` file.
+
+The `.spec` part is the `Test extension` option avaliable in this package settings.
+
+TODO
+- [ ] Accept differente paths for test files, maybe make everything relative to project
