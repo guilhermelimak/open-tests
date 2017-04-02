@@ -3,6 +3,9 @@
   "main": "./lib/open-tests",
   "version": "0.4.0",
   "description": "Open tests of current file in atom",
+  "scripts" : {
+    "lint": "eslint lib/*"
+  },
   "keywords": [
     "tests"
   ],
@@ -14,5 +17,10 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^3.18.0",
+    "eslint-config-airbnb-base": "^11.1.2",
+    "eslint-plugin-import": "^2.2.0"
+  }
 }
