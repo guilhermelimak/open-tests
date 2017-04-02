@@ -5,6 +5,7 @@ node_js:
 
 before_script:
   - yarn
+  - yarn global add apm
 
 script:
   - yarn lint
