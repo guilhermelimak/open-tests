@@ -7,7 +7,7 @@
     "lint": "eslint lib/*",
     "test": "jest",
     "test:watch": "jest --watch",
-    "publish": "apm publish minor"
+    "apm:publish": "apm publish minor"
   },
   "keywords": [
     "tests"
