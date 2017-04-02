@@ -5,8 +5,9 @@ node_js:
 
 before_script:
   - yarn
+  - yarn add apm
 
 script:
   - yarn lint
   - yarn test
-  - apm publish
+  - apm publish minor
