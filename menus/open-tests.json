@@ -2,8 +2,12 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle open-tests",
-        "command": "open-tests:open"
+        "label": "Open tests",
+        "command": "open-tests:open-test"
+      },
+      {
+        "label": "Open templates",
+        "command": "open-tests:open-template"
       }
     ]
   },
@@ -15,8 +19,12 @@
           "label": "open-tests",
           "submenu": [
             {
-              "label": "Open",
-              "command": "open-tests:open"
+              "label": "Open test",
+              "command": "open-tests:open-test"
+            },
+            {
+              "label": "Open template",
+              "command": "open-tests:open-template"
             }
           ]
         }

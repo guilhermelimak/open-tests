@@ -1,5 +1,6 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "open-tests:open"
+    "ctrl-alt-o": "open-tests:open-test",
+    "ctrl-alt-p": "open-tests:open-template"
   }
 }
